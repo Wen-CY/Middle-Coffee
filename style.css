@@ -1,0 +1,191 @@
+/* -------------------共用區域--------------------- */
+* {
+    font-family: '微軟正黑體' ,serif;
+    position: relative;
+    /* border: solid 1px; */
+    color: #333;
+  }
+  
+  h1,h2,h3,h4,p {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    padding: 8px 0px;
+  }
+  h1 {
+    font-size: 60px;
+    font-weight: 900;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    color: #eee;
+  }
+  h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 1.2rem;
+  }
+  h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  h1, h2, h3, a {
+    font-family: "Walter Turncoat", cursive;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.8rem;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  dl, ol, ul,a {
+    margin-bottom: 0px;
+  }
+  /* --------header section-------- */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 36px;
+    vertical-align: middle;
+  }
+  nav img {
+    height: 60px;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+  }
+  .banner {
+    width: 100%;
+    height: 90vh;
+    background-image: url("https://plus.unsplash.com/premium_photo-1669374537636-518629de3b85?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* -------section area-------- */
+  section {
+    height: 100%;
+    padding: 100px 60px;
+    text-align: center;
+  }
+  .line {
+    position: absolute;
+    margin-left: 130px;
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #85cbbf;
+  }
+  /* --------about section--------- */
+  #about img {
+    margin-top: 40px;
+    width: 50%;
+  }
+  .section {
+    width: 100%;
+    height: 300px;
+    background-image: url("https://images.unsplash.com/photo-1513530176992-0cf39c4cbed4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position:  center;
+    background-attachment: fixed;
+  }
+  /* ----------class section------------- */
+ 
+  #class {
+    background-color: rgb(240,236,232);
+  }
+  #class img {
+    width: 300px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: bottom center;
+    margin-top: 40px;
+  }
+  .infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+ 
+  button {
+    border: none;
+    width: 160px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: brown;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-family: '微軟正黑體' ,serif;
+  }
+
+  /* ----------聯絡資訊區域--------- */
+.contact-top {
+    margin-bottom: 100px;
+  }
+  /* ----------頁尾區域------------ */
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+  }
+  .socials svg{
+    margin-right: 24px;
+  }
+
+  .footer {
+    width: 100%;
+    height: 340px;
+    background-image: url("https://plus.unsplash.com/premium_photo-1673261160611-b060865138c3?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position:  center;
+  }
+
+
+
+/* RWD 設定 */
+
+@media (max-width:400px) {
+    p {
+        font-size: 12px;
+        line-height: 1rem;
+      }
+    h2, h3 {
+        font-size: 20px;
+    }
+    a {
+        font-size: 12px;
+    }
+    nav ul {
+        gap: 10px;
+    }
+    #about img {
+      width: 100%;
+    }
+    button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+}
+
+@media (max-width:768px) {
+    #class h3 {
+        margin-top: 30px;
+    }
+    #class img {
+        margin-top: 10px;
+    }
+}
+
