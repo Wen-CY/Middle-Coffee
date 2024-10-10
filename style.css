@@ -199,6 +199,7 @@
     }
     .section {
       height: 200px;
+      background-attachment: scroll;
     }
 }
 
