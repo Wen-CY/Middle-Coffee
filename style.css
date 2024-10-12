@@ -185,6 +185,9 @@
     #about img {
       width: 100%;
     }
+    .banner {
+      width: 100%;
+    }
 }
 
 @media (max-width:768px) {
