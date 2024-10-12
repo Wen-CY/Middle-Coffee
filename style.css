@@ -111,7 +111,7 @@
     aspect-ratio: 1;
     object-fit: cover;
     object-position: bottom center;
-    margin-top: 40px;
+    margin-top: 20px;
   }
   .infos {
     display: flex;
@@ -162,6 +162,10 @@
 /* RWD 設定 */
 
 @media (max-width:400px) {
+    .class {
+      margin-left: auto;
+      margin-right: auto;
+    }
     p {
         font-size: 12px;
         line-height: 1rem;
