@@ -2,7 +2,7 @@
 * {
     font-family: '微軟正黑體' ,serif;
     position: relative;
-    /* border: solid 1px; */
+    border: solid 1px;
     color: #333;
   }
   
@@ -40,7 +40,7 @@
   a {
     text-decoration: none;
     color: #000;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
   }
   dl, ol, ul,a {
@@ -108,7 +108,7 @@
   }
   #class img {
     height: 300px;
-    height: 100%;
+    width: 100%;
     aspect-ratio: 1;
     object-fit: cover;
     object-position: bottom center;
@@ -170,11 +170,9 @@
     h2, h3 {
         font-size: 20px;
     }
-    a {
-        font-size: 12px;
-    }
     nav ul {
         gap: 10px;
+       
     }
     #about img {
       width: 100%;
